@@ -11,8 +11,6 @@ const display = document.getElementById('display');
 const numButtons = document.getElementsByClassName('num');
 const opButtons = document.getElementsByClassName('op');
 
-
-
 // ================= NUMBER BUTTONS =================
 // Loop through HTMLCollection (no forEach here)
 for (let i = 0; i < numButtons.length; i++) {

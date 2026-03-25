@@ -1,0 +1,42 @@
+
+body {
+    font-family: sans-serif;
+    background-color: #FFB131;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 750px;
+    margin: 0 auto;
+    background: #fff;
+    border-bottom: 5px solid black;
+    padding: 0 24px;
+}
+.nav-links {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+.nav-links li {
+    display: inline;
+    margin: 0 24px;
+}
+.nav-links a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFB131;
+    line-height: 32px;
+}
+.join-soweto {
+    float: right;
+    background-color: #FBC57B;
+    font-size: 190%;
+    padding: 12px;
+    margin: 16px;
+}
+footer {
+    font-family: "Times New Roman", serif;
+    font-size: 10pt;
+    clear: both;
+    padding: 10px 0;
+}
