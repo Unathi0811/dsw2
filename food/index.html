@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Food App</title>
+    <link rel="stylesheet" href="/food/style.css">
+</head>
+<body>
+
+<div>
+    Name of Food: <input id="foodname" type="text">
+    
+    Food Group:
+    <select id="foodgroup">
+        <option>dairy</option>
+        <option>fats</option>
+        <option>fruit</option>
+        <option>meat</option>
+        <option>veggies</option>
+    </select>
+
+    <button id="eat">Eat!</button>
+    <button id="restock">Restock</button>
+</div>
+
+<p id="food-list">
+    <img src="images/cookie.jpeg" class="food fats" alt="cookie">
+    <img src="images/apple.jpeg" class="fruit food" alt="apple">
+    <img src="images/broc.jpeg" class="food veggies" alt="broccoli">
+    <img src="images/tomato.jpeg" class="fruit food" alt="tomato">
+    <img src="images/beefsteak.jpeg" class="food meat" alt="steak">
+    <img src="images/milk.jpeg" class="food dairy" alt="milk">
+    <img src="images/lays.jpeg" class="fats food other" alt="chips">
+</p>
+
+<p id="message"></p>
+
+<script src="/food/index.js"></script>
+</body>
+</html>

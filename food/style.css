@@ -1,0 +1,42 @@
+/* Page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Controls */
+.controls {
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    padding: 6px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+/* Images */
+#food-list img {
+    width: 100px;
+    height: auto;
+    margin: 8px;
+    transition: 0.3s;
+}
+
+/* Highlight matching images */
+.highlight {
+    border: 3px solid red;
+    opacity: 1;
+}
+
+/* Dim non-matching images */
+.dim {
+    opacity: 0.3;
+}
+
+/* Message */
+#message {
+    margin-top: 15px;
+    color: red;
+    font-weight: bold;
+}
